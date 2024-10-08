@@ -42,7 +42,7 @@ TOKEN = '7353432684:AAEQy1g9kiQr400Pb7IVtOV2LM40CCAYTz8'
 bot = telebot.TeleBot(TOKEN, threaded=False)
 
 # 🛡️ List of authorized user IDs (replace with actual IDs)
-AUTHORIZED_USERS = [1866816118]
+ADMIN_IDS = [1866816118]
 
 def run_attack_command_sync(user_id, target_ip, target_port, action):
     try:
