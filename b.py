@@ -9,8 +9,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-from keep_alive import keep_alive
-keep_alive()
+
 
 TOKEN = '7376682624:AAFuZXujuqAtJaMB8jdZRTCHif8RpwbcH3Y'
 MONGO_URI = 'mongodb+srv://MasterBhaiyaa:MasterBhaiyaa@masterbhaiyaa.7bym6.mongodb.net/?retryWrites=true&w=majority&appName=MasterBhaiyaa'
